@@ -1,0 +1,110 @@
+body {
+  background: #f6f6f6;
+}
+.wrapper {
+  margin-bottom: 30px;
+  color: #242424;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background: #fff;
+}
+.wrapper:hover {
+  box-shadow: 0px 4px 10px 0px #dddddd;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+.item-description {
+  position: absolute;
+  bottom: 40px;
+  left: 30px;
+  color: #242424;
+}
+.item-description p {
+  font-size: 1em;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+.item-action {
+  position: absolute;
+  bottom: 46px;
+  right: 30px;
+}
+.item-action span {
+  padding: 8px;
+  background: #fff;
+  border-radius: 16px;
+  color: #ed4d38;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.item-action span:hover {
+  padding: 8px;
+  background: #ed4d38;
+  border-radius: 16px;
+  color: #fff;
+  box-shadow: 0px 4px 30px 0px #ed4d38;
+  cursor: pointer;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.item-sizes {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+}
+.item-sizes p {
+  font-size: 0.8em;
+  font-weight: normal;
+  letter-spacing: 0.05em;
+}
+.item-materials {
+  position: absolute;
+  top: 10px;
+  left: 30px;
+}
+.oak {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  font-size: 0px;
+  background: #c28f4d;
+  display: inline-block;
+  border-radius: 10px;
+}
+.beech {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  font-size: 0px;
+  background: #d2b384;
+  display: inline-block;
+  border-radius: 10px;
+}
+.birch {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  font-size: 0px;
+  background: #e6d3ab;
+  display: inline-block;
+  border-radius: 10px;
+}
+.pine {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  font-size: 0px;
+  background: #ebc675;
+  display: inline-block;
+  border-radius: 10px;
+}
