@@ -108,3 +108,21 @@ img {
   display: inline-block;
   border-radius: 10px;
 }
+.item-new {
+  position: absolute;
+  top: 160px;
+  left: 0px;
+
+}
+.item-new p {
+  text-transform: uppercase;
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  font-size: 1em;
+  letter-spacing: 0.05em;
+  font-weight: bold;
+  line-height: 1;
+  color: #CBD4D8;
+  padding: 0.5em;
+  border: 1px solid #CBD4D8;
+}

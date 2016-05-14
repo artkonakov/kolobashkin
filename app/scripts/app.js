@@ -41,5 +41,5 @@ angular
     getUrl: function(url) {
       return $http.get(url);
     }
-  }
+  };
 }]);
