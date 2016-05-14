@@ -1,21 +1,21 @@
 <div class="row">
-  <div class="" ng-repeat="item in items">
+  <div ng-repeat="item in items | orderBy: '-item.promoru'">
     <div class="col-md-3">
       <div class="wrapper">
-        <a href="">
+        <a href="/#/{{item.item}}">
           <img ng-src="http://kolobashkin.ru/images/items/{{item.item}}{{item.matdef}}.jpg">
           <div class="item-description">
             <p>{{item.item}}</p>
           </div>
           <div class="item-action">
-            <a href=""><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>
+            <a href="/#/{{item.item}}"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>
           </div>
           <div class="item-sizes">
             <p>
-              <span ng-show="item.r">{{item.r}} x</span>
+              <span ng-show="item.r">&Oslash;&#8202;{{item.r}} x</span>
               <span ng-show="item.a">{{item.a}} x</span>
               <span ng-show="item.b">{{item.b}} x</span>
-              <span ng-show="item.h">{{item.h}}</span> mm
+              <span ng-show="item.h">{{item.h}}</span>&#8202;mm
             </p>
           </div>
           <div class="item-materials">
@@ -26,7 +26,7 @@
               <span class="pine" title="Сосна" ng-show="item.pine">&nbsp;</span>
             </p>
           </div>
-          <div class="item-new" ng-show="{{item.promoru}}">
+          <div class="item-new" ng-show="item.promoru">
             <p>{{item.promoru}}</p>
           </div>
         </a>

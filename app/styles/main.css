@@ -74,7 +74,7 @@ img {
   padding-right: 10px;
   padding-bottom: 10px;
   font-size: 0px;
-  background: #c28f4d;
+  background: url('/images/oak-texture.png') no-repeat;
   display: inline-block;
   border-radius: 10px;
 }
@@ -84,7 +84,7 @@ img {
   padding-right: 10px;
   padding-bottom: 10px;
   font-size: 0px;
-  background: #d2b384;
+  background: url('/images/beech-texture.png') no-repeat;
   display: inline-block;
   border-radius: 10px;
 }
@@ -94,7 +94,7 @@ img {
   padding-right: 10px;
   padding-bottom: 10px;
   font-size: 0px;
-  background: #e6d3ab;
+  background: url('/images/birch-texture.png') no-repeat;
   display: inline-block;
   border-radius: 10px;
 }
@@ -104,25 +104,22 @@ img {
   padding-right: 10px;
   padding-bottom: 10px;
   font-size: 0px;
-  background: #ebc675;
+  background: url('/images/pine-texture.png') no-repeat;
   display: inline-block;
   border-radius: 10px;
 }
 .item-new {
   position: absolute;
   top: 160px;
-  left: 0px;
+  left: 8px;
 
 }
 .item-new p {
   text-transform: uppercase;
   -webkit-transform: rotate(-90deg);
   transform: rotate(-90deg);
-  font-size: 1em;
+  font-size: 0.8em;
   letter-spacing: 0.05em;
-  font-weight: bold;
+  font-weight: normal;
   line-height: 1;
-  color: #CBD4D8;
-  padding: 0.5em;
-  border: 1px solid #CBD4D8;
 }

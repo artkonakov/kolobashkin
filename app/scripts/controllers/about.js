@@ -8,9 +8,9 @@
  * Controller of the kolobashkinApp
  */
 angular.module('kolobashkinApp')
-  .controller("AboutCtrl", ['$scope', 'getItems', function($scope, getItems) {
+  .controller("AboutCtrl", ['$scope', 'getItems', '$routeParams', function($scope, getItems, $routeParams) {
 
     //Делаем запрос к серверу через фабрику
-
+    $scope.aboutItem = $routeParams.item;
 
   }]);
