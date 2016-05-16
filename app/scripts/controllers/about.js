@@ -12,5 +12,9 @@ angular.module('kolobashkinApp')
 
     //Делаем запрос к серверу через фабрику
     $scope.aboutItem = $routeParams.item;
+    getItems.getUrl('/items.json').success(function(response) {
+      $scope.items = response;
+      console.log($scope.items);
+    });
 
   }]);
